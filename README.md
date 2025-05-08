@@ -3,7 +3,7 @@
 ### Enum
 Enum stands for enumeration. It is a user-defined data type, which allows us to define a set of named constants. 
 
-### enum does not store duplicate key.
+### Enum does not store duplicate key.
 Example:  
 enum Names{  
 Name = "mayesha",  
