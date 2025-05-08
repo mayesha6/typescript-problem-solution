@@ -12,29 +12,29 @@ Name = "smorony"    // Avoid duplicate key.
 This is an error, because here we use the name property twice and enum does not allow duplicate properties/keys.
 
 ### Types of Enums in TypeScript
-There are 3 types of enum. They are: 1.string enum, 2.number enum, 3.heterogeneous enum.
-1. String enum: When we store string values ​​for enum, it is called string enum. 
-Example:
-enum Str {
-MyName = "mayesha",
-BroName = "mashrif",
-SisName="Tania"
-}
+There are 3 types of enum. They are:   1.string enum,   2.number enum,   3.heterogeneous enum.  
+1. String enum: When we store string values ​​for enum, it is called string enum.   
+Example:  
+enum Str {  
+MyName = "mayesha",  
+BroName = "mashrif",  
+SisName="Tania"  
+}  
 
-2. Number enum: When we store number values ​​for enum, it is called number enum. 
-Example:
-enum Num {
-MyAge=26,
-BroAge=14,
-SisAge=23
-}
+2. Number enum: When we store number values ​​for enum, it is called number enum.  
+Example:  
+enum Num {  
+MyAge=26,  
+BroAge=14,  
+SisAge=23  
+}  
 
-3. Heterogeneous enum: When we store both string and number values ​​for enum at the same time, it is called heterogeneous enum.
-Example:
-enum StrNum {
-Name = "mayesha",
-Age = 26
-}
+3. Heterogeneous enum: When we store both string and number values ​​for enum at the same time, it is called heterogeneous enum.  
+Example:  
+enum StrNum {  
+Name = "mayesha",  
+Age = 26  
+}  
 
 ### Uses of Enum
 
@@ -49,8 +49,8 @@ Age = 26
 ### Type Inference
 When we do not define any type for a variable and assign a value to the variable for the first time, the compiler automatically determines the type of the variable based on the type of the value. This feature is known as type inference, and it is a powerful capability of the TypeScript compiler.
 
-Example:
-let name='mayesha'
+Example:  
+let name='mayesha'  
 typescript infers the type of the key 'name' as string.
 
 ### Advantages of type inference:
