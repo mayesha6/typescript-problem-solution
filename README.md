@@ -1,6 +1,6 @@
 ## Question - 4 What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
 
-### Enum
+## Enum
 Enum stands for enumeration. It is a user-defined data type, which allows us to define a set of named constants. 
 
 ### enum does not store duplicate key.
