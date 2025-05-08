@@ -12,7 +12,7 @@ Name = "smorony"    // Avoid duplicate key.
 This is an error, because here we use the name property twice and enum does not allow duplicate properties/keys.
 
 ### Types of Enums in TypeScript
-There are 3 types of enum. They are:
+There are 3 types of enum. They are:  
    1.string enum,     
    2.number enum,     
    3.heterogeneous enum.  
