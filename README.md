@@ -4,11 +4,11 @@
 Enum stands for enumeration. It is a user-defined data type, which allows us to define a set of named constants. 
 
 ### enum does not store duplicate key.
-Example:
-enum Names{
-Name = "mayesha",
-Name = "smorony"    // Avoid duplicate keys.
-}
+Example:  
+enum Names{  
+Name = "mayesha",  
+Name = "smorony"    // Avoid duplicate key.  
+}  
 This is an error, because here we use the name property twice and enum does not allow duplicate properties/keys.
 
 ### Types of Enums in TypeScript
