@@ -13,9 +13,9 @@ This is an error, because here we use the name property twice and enum does not 
 
 ### Types of Enums in TypeScript
 There are 3 types of enum. They are:  
-   1.string enum,     
-   2.number enum,     
-   3.heterogeneous enum.  
+   1.String enum,     
+   2.Number enum,     
+   3.Heterogeneous enum.  
 1. String enum: When we store string values ​​for enum, it is called string enum.   
 Example:  
 enum Str {  
