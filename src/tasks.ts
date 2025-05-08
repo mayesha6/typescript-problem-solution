@@ -71,9 +71,11 @@ function delay(time: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, time));
 }
 async function squareAsync(n: number): Promise<number> {
-  if (n >= 0) {
+  if (n > 0) {
     await delay(1000);
     return n * n;
+  } else if (n === 0) {
+    return n;
   } else {
     throw new Error("Error: Negative number not allowed");
   }
