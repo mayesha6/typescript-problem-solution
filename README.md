@@ -23,6 +23,10 @@ MyName = "mayesha",
 BroName = "mashrif",  
 SisName="Tania"  
 }  
+function displayName(person: Str) {  
+  console.log(`Selected name is: ${person}`)  
+}  
+displayName(Str.MyName)  
 
 2. Number enum: When we store number values ​​for enum, it is called number enum.  
 Example:  
@@ -31,6 +35,10 @@ MyAge=26,
 BroAge=14,  
 SisAge=23  
 }  
+function showAge(age: Num) {  
+  console.log(`The selected age is: ${age}`)  
+}  
+showAge(Num.MyAge)  
 
 3. Heterogeneous enum: When we store both string and number values ​​for enum at the same time, it is called heterogeneous enum.  
 Example:  
