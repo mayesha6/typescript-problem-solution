@@ -1,4 +1,4 @@
-Question - 4 What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
+# Question - 4 What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
 
 ## Enum
 Enum stands for enumeration. It is a user-defined data type, which allows us to define a set of named constants. 
@@ -44,7 +44,7 @@ Age = 26
 4. If we want to change the property value of an enum, we only need to change it from the enum, not from the entire codebase.
 
 
-Question 5 - What is type inference in TypeScript? Why is it helpful?
+# Question 5 - What is type inference in TypeScript? Why is it helpful?
 
 ## Type Inference
 When we do not define any type for a variable and assign a value to the variable for the first time, the compiler automatically determines the type of the variable based on the type of the value. This feature is known as type inference, and it is a powerful capability of the TypeScript compiler.
